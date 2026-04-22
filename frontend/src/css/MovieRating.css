@@ -1,0 +1,15 @@
+.movie-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.stars {
+  font-size: 14px;
+}
+.rating-text {
+  font-size: 12px;
+  color: var(--text-color);
+  opacity: 0.7;
+  transition: color 0.3s ease;
+}
