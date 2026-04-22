@@ -28,35 +28,6 @@ A modern web application for discovering trending movies and TV series with adva
 - Switch Theme: Toggle between dark and light mode in the navbar
 - View Favorites: Navigate to the Favorites page to see saved movies
 
-📁 Project Structure
-frontend/
-├── src/
-│   ├── components/           Reusable UI components
-│   │   ├── CategoryTabs.jsx      # Category selector
-│   │   ├── GenreFilter.jsx       # Genre filtering
-│   │   ├── MovieCard.jsx         # Movie display card
-│   │   ├── MovieRating.jsx       # Rating display
-│   │   └── Navbar.jsx            # Navigation bar
-│   ├── pages/               # Page components
-│   │   ├── Home.jsx             # Main page
-│   │   └── Favorites.jsx        # Favorites page
-│   ├── contexts/            # Context API
-│   │   ├── MovieContext.jsx      # Movie & favorites state
-│   │   └── ThemeContext.jsx      # Theme state
-│   ├── services/            # API services
-│   │   └── api.js               # TMDB API calls
-│   ├── css/                 # Component styles
-│   ├── assets/              # Images and icons
-│   ├── App.jsx              # Main app component
-│   └── main.jsx             # Entry point
-├── public/                  # Static assets
-├── index.html               # HTML template
-├── vite.config.js           # Vite configuration
-├── eslint.config.js         # ESLint configuration
-├── package.json             # Dependencies
-└── .gitignore               # Git ignore rules
-
-
 🔑 Key Components
 
 MovieCard
